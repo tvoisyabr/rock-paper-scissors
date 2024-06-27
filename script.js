@@ -84,7 +84,7 @@ function playGame() {
         round++;
     }
 
-    console.log(`Human score: ${humanScore}\nComputer score: ${computerScore}`);
+    alert(`Human score: ${humanScore}\nComputer score: ${computerScore}`);
 };
 
 playGame();
